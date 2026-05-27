@@ -1,6 +1,6 @@
 "use strict";
 
-// Užduotis: Taupyklėje yra monetų po 5ct, 20ct ir 2€. Kiek pinigų yra taupyklėje?
+//Taupyklėje yra monetų po 5ct, 20ct ir 2€. Kiek pinigų yra taupyklėje?
 
 let a = +prompt("Kiek monetų yra po 5ct?");  //5
 let b = +prompt("Kiek monetų yra po 20ct?"); //0
