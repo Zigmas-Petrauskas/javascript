@@ -67,6 +67,7 @@ names.forEach((name, index) => {
 
 */
 
+/*
 let numbers = [1, 2, 3, 4];
 let total = numbers.reduce((sum, number) => sum + number, 0);
 console.log(total);
@@ -75,3 +76,26 @@ console.log(total);
 // 1 + 2 = 3
 // 3 + 3 = 6
 // 6 + 4 = 10
+
+*/
+
+
+let numbers = [10, 20, 33, ];
+let sum1 = numbers.reduce((sum, number) => {
+    return sum + number;
+}, 0);
+
+console.log(sum1);
+
+// 0 + 10 = 10
+// 10 + 20 = 30
+// 30 +30 = 60
+
+
+
+
+let sum2 = numbers.reduce((sum, number) => {
+    return sum + number;
+});
+
+console.log(sum2);
