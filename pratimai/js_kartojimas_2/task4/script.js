@@ -2,6 +2,8 @@
 
 //skaičiuokPertraukas
 
+// Pertraukos būtinos - mes ne robotai (dar).
+
 //funkcija suskaičiuoja kiek telpą blokų į mokimosį laiką
 const suskaiciuokPrtraukas = (valandos) => {
     //valandos verčiamos minutėmis

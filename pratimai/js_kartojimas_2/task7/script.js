@@ -2,6 +2,8 @@
 
 // penkatdienioTvarkytojas
 
+// Ateina penktadienis - rimti darbai turi dingti.
+
 const penktadienioTvarkytojas = () => {
     // sujuriami 2 masyvai
     const rimtiDarbai = ["Mokytis", "Kartoti", "Rašyti konspektą", "Ateiti į pamokas"];

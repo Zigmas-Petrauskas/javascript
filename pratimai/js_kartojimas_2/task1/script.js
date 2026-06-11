@@ -2,6 +2,8 @@
 
 // suskaičiuokDienosKrūvį
 
+// Šiandien viską norim suspėti, ir dirbti, ir dar truputį pagyventi
+
 // Funkcija kuri skaičiuoja dienos krūvį
 const suskiaciuokDienosKruvi = (darboValandos, mokymosiValandos) => {
     const bendrasKruvis = darboValandos + mokymosiValandos; // Sudedamos darbo ir mokymosi valandos

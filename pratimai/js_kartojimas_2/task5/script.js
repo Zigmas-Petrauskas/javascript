@@ -2,6 +2,8 @@
 
 // tvarkaraštisSuPrioritetais
 
+// Kartais reikia nuspręsti, kas svarbiau: miegas ar JavaScript
+
 //funcija rušiuoja uždoutis pagal prioritetą
 const tvarkaraštisSuPrioritetais = (uzduotys) => {
     return uzduotys
@@ -9,7 +11,7 @@ const tvarkaraštisSuPrioritetais = (uzduotys) => {
     // rikiuojama nuo mažiausio prioriteto
     .sort((a, b) => a.prioritetas - b.prioritetas)
 
-    //paliekamas u=duoties pavadinimas
+    //paliekamas užduoties pavadinimas
     .map(uzduotis => uzduotis.uzduotis);
 };
 

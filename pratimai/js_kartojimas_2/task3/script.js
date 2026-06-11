@@ -2,6 +2,8 @@
 
 // sudarykMotivaciniPlana
 
+// Motivaciją kartais reikia rašyti ranka
+
 // Funkcija prie kiekvieno darbo prideda motivacinę frazę
 const sukurkMotivaciniPlana = (darbai) => {
     // masyvas rezultatams saugoti

@@ -2,6 +2,8 @@
 
 // atrinkPoilsioDienas
 
+// Visiems reikia poilsio, net ir Javascript mokiniams
+
 // Funkcija kuri atrenka dienas, kur mokintasi 3 val
 const  atrinkPoilsioDienas = (dienos) => {
     return dienos
